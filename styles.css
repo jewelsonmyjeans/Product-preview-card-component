@@ -77,7 +77,7 @@ body {
     color: var(--white);
     cursor: pointer;
 }
-.btn:hover, .btn:active, .btn:focus {
+.btn:hover, .btn:focus {
     background-color: var(--darker-cyan);
 }
 
