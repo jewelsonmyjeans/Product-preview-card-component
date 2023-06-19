@@ -94,6 +94,10 @@ p {
 
 }
 
+.btn:hover, .btn:focus {
+    background: var(--very-dark-blue);
+}
+
 embed {
     margin-right: .5em;
 }
