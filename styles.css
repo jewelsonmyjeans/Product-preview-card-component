@@ -13,7 +13,9 @@
 }
 
 body {
-    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: var(--cream);
     min-width: 375px;
     height: auto;
