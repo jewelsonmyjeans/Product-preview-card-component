@@ -16,6 +16,7 @@ body {
     margin: 0 auto;
     background: var(--cream);
     min-width: 375px;
+    height: auto;
     font-family: 'Montserrat', sans-serif;
 }
 

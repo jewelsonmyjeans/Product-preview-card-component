@@ -15,12 +15,15 @@
 </head>
   <body>
     <main id="container">
-
-      <img srcset="images/image-product-desktop.jpg 600w, images/image-product-mobile.jpg 686w"
-         sizes="(max-width: 600px) 686px, 300px"
-         src="images/image-product-desktop.jpg"
-         alt="A bottle of perfume surrounded by foliage"
-         class="product-image">
+      
+      <picture>
+        <source media="(min-width: 745px)" srcset="images/image-product-desktop.jpg">
+        <source media="(min-width: 375px)" srcset="images/image-product-mobile.jpg">
+        <img 
+          src="images/image-product-mobile.jpg"
+          alt="A bottle of perfume surrounded by foliage"
+          class="product-image">
+      </picture>
 
 
       <div id="information">
