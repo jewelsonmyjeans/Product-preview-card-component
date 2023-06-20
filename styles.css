@@ -17,8 +17,8 @@ body {
     align-items: center;
     justify-content: center;
     background: var(--cream);
-    min-width: 375px;
-    height: auto;
+    width: 100%;
+    height: 100%;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -32,6 +32,7 @@ p {
     margin: 2em 1em;
     text-align: center;
     height: 100%;
+    width: 100%;
 }
 
 .product-image {
