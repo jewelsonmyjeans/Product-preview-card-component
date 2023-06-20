@@ -13,6 +13,7 @@
 }
 
 body {
+    margin: 0 auto;
     background: var(--cream);
     min-width: 375px;
     font-family: 'Montserrat', sans-serif;
@@ -34,7 +35,6 @@ p {
     width: 100%;
     height: auto;
     border-radius: 10px 10px 0 0;
-    background: url(../images/image-product-mobile.jpg);
 }
 
 #information {
